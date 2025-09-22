@@ -6,7 +6,8 @@
 > **ns-3 version:** 3.40 (frozen & tested; later versions not guaranteed)
 
 This repository contains **five incremental laboratories (Lab-00 through Lab-04)** for hands-on wireless networking using the ns-3 simulator.  
-Each lab can be completed in **either C++ or Python**. You only need to choose one language path per lab (not both).
+Each lab can be completed in **either C++ or Python**. You only need to **choose one language path per lab (not both).**
+Please submit a PDF report to Canvas, and keep the output/files ready for Lab sessions. 
 
 ---
 

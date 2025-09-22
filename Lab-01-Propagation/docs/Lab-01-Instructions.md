@@ -33,30 +33,17 @@ Refer to [common/links.md](../common/links.md) for API and tutorial references.
 ![Two-Ray Ground Reflection Model](/common/images/500px-2-Ray_Ground_Reflection.png)  
 *A geometric representation of the Two-Ray Ground Reflection model, showing the paths of the direct signal and the ground-reflected signal between transmitter and receiver. Key parameters include the horizontal distance, transmitter height, receiver height, reflection angles, and total path lengths. The figure demonstrates how constructive and destructive interference arises due to phase differences between the direct and reflected rays.*
 
-1. **Copy starter code**  
-   ```bash
-   cp code/Lab1_Cpp_TwoRay.cc \
-     ~/ns-allinone-3.40/ns-3.40/scratch/
-    ```
-
-2. **Rebuild**
-
-   ```bash
-   cd ~/ns-allinone-3.40/ns-3.40
-   cmake --build build -j$(nproc)
-   ```
-3. **Calculate** the border distance `dᵢ` (maximum range) using Two-Ray formula.
-4. **Define** distance set
+1. **Define** distance set
 
    ```
    D = {dᵢ, 7dᵢ/8, 6dᵢ/8, …, dᵢ/8}
    ```
-5. **For each** distance `d ∈ D`:
+2. **For each** distance `d ∈ D`:
 
    * Edit `Lab1_Cpp_TwoRay.cc` to place nodes at `(0,0)` and `(d,0)`.
    * Run the simulation, capture UDP throughput.
    * Record bit-rate vs. distance.
-6. **Plot** bit-rate (y-axis) vs. distance (x-axis).
+3. **Plot** bit-rate (y-axis) vs. distance (x-axis).
 
 **Likely Issues:**
 
@@ -101,7 +88,7 @@ For each model above, repeat the experiments in Python:
 
 ---
 
-## Part 2: Real-World Propagation Measurements
+## Part 2: Real-World Propagation Measurements (**Optional**)
 
 > **Recommended**: work with a partner and laptops in corridor.
 
