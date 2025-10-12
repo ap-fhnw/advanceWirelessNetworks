@@ -1,0 +1,54 @@
+==== Hidden-terminal results ====
+RTS/CTS enabled : true (RtsCtsThreshold=0)
+Distance (m)    : 200 (STA0 @ 0, AP @ 200, STA1 @ 400)
+Packet size (B) : 1000
+App rate        : 1Mbps per STA
+Seed(run)       : 1
+
+Throughput STA0→AP : 0.426 Mb/s  (479000 bytes over 9.000 s)
+Throughput STA1→AP : 0.416 Mb/s  (468000 bytes over 9.000 s)
+Total throughput   : 0.842 Mb/s
+
+PDR STA0 (rx/tx)   : 479/1124 = 42.616%
+PDR STA1 (rx/tx)   : 468/1124 = 41.637%
+
+==== Hidden-terminal results ====
+RTS/CTS enabled : true (RtsCtsThreshold=0)
+Distance (m)    : 200 (STA0 @ 0, AP @ 200, STA1 @ 400)
+Packet size (B) : 1000
+App rate        : 1Mbps per STA
+Seed(run)       : 2
+
+Throughput STA0→AP : 0.411 Mb/s  (462000 bytes over 9.000 s)
+Throughput STA1→AP : 0.430 Mb/s  (484000 bytes over 9.000 s)
+Total throughput   : 0.841 Mb/s
+
+PDR STA0 (rx/tx)   : 462/1124 = 41.103%
+PDR STA1 (rx/tx)   : 484/1124 = 43.060%
+
+RTS/CTS enabled : false (RtsCtsThreshold=2200)
+Distance (m)    : 200 (STA0 @ 0, AP @ 200, STA1 @ 400)
+Packet size (B) : 1000
+App rate        : 1Mbps per STA
+Seed(run)       : 1
+
+Throughput STA0→AP : 0.441 Mb/s  (496000 bytes over 9.000 s)
+Throughput STA1→AP : 0.436 Mb/s  (490000 bytes over 9.000 s)
+Total throughput   : 0.876 Mb/s
+
+PDR STA0 (rx/tx)   : 496/1124 = 44.128%
+PDR STA1 (rx/tx)   : 490/1124 = 43.594%
+
+==== Hidden-terminal results ====
+RTS/CTS enabled : false (RtsCtsThreshold=2200)
+Distance (m)    : 200 (STA0 @ 0, AP @ 200, STA1 @ 400)
+Packet size (B) : 1000
+App rate        : 1Mbps per STA
+Seed(run)       : 2
+
+Throughput STA0→AP : 0.428 Mb/s  (481000 bytes over 9.000 s)
+Throughput STA1→AP : 0.447 Mb/s  (503000 bytes over 9.000 s)
+Total throughput   : 0.875 Mb/s
+
+PDR STA0 (rx/tx)   : 481/1124 = 42.794%
+PDR STA1 (rx/tx)   : 503/1124 = 44.751%
