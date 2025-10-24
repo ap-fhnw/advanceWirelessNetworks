@@ -42,6 +42,7 @@
 #include "ns3/applications-module.h"
 #include "ns3/flow-monitor-module.h"
 #include "ns3/olsr-helper.h"
+#include "ns3/aodv-helper.h"
 #include "ns3/netanim-module.h"   // only used if --enableAnim=1
 
 using namespace ns3;
@@ -154,9 +155,11 @@ int main(int argc, char* argv[])
   // -------- Internet + routing (REQUIRED for multi-hop) --------
   // Use OLSR for simplicity (proactive, works out-of-the-box).
   Ipv4ListRoutingHelper list;
-  OlsrHelper olsr;
+  // OlsrHelper olsr;
+  AodvHelper aodv;
+  // list.Add(olsr, 10);
+  list.Add(aodv, 10);
   Ipv4StaticRoutingHelper staticRh; // keep static at lower priority for any manual additions later
-  list.Add(olsr, 10);
   list.Add(staticRh, 5);
 
   InternetStackHelper internet;
